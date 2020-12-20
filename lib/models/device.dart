@@ -15,7 +15,7 @@ class Device {
 
   Device.db();
   Device(this.id, this.nickName, this.userName, this.password);
-  Device.noId(this.nickName, this.userName, this.password);
+  Device.noId(this.nickName, this.userName, this.password, this.ipAddress);
 
   Map<String, dynamic> toMap() {
     var map = Map<String, dynamic>();
